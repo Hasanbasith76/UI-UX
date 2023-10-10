@@ -6,12 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <script>
-        var s="Hello!";
-        var s1=s.big();
-        var s2=s1.blink();
-        var s3=s2.bold();
-        document.write(s3);
-    </script>
+    <form name="st">
+        <input type="text" size="65" name="input1"><br>
+        <input type="button" value="Change" onclick="window.status=document.st.input1.value;">
+    </form>
 </body>
 </html>
